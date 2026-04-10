@@ -1175,7 +1175,11 @@ body::-webkit-scrollbar { display: none; }
   .footer-inner > div { gap: 20px !important; }
 
   /* Headings — prevent mid-letter breaks, only wrap at word boundaries */
-  h1, h2, h3 { overflow-wrap: break-word; word-break: normal; hyphens: none; }
+  h1, h2, h3 { overflow-wrap: normal; word-break: normal; hyphens: none; }
+
+  /* Fix headline font sizes — prevents SplitText char-spans from wrapping mid-word */
+  .hero-main-title { font-size: min(7.5vw, 2rem) !important; }
+  .solution-title  { font-size: min(6.5vw, 1.85rem) !important; }
 }
 @media (max-width: 480px) {
   .video-stats > div { width: 100% !important; border-right: none !important; border-top: 1px solid rgba(255,255,255,0.08); }
