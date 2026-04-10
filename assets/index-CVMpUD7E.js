@@ -19923,7 +19923,7 @@ const VideoSection = () => {
         {
           src: "https://img.youtube.com/vi/cDf1qmatTN8/maxresdefault.jpg",
           alt: "Video Thumbnail",
-          style: { width: "100%", height: "100%", objectFit: "cover", display: "block", filter: "grayscale(30%) brightness(0.7)" }
+          style: { width: "100%", height: "100%", objectFit: "cover", display: "block", filter: "brightness(0.85)" }
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%)", pointerEvents: "none" } }),
